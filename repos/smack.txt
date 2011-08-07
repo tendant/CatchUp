@@ -1,1 +1,3 @@
- mvn install:install-file -DgroupId=org.igniterealtime.smack -DartifactId=smack -Dversion=3.2.1 -Dpackaging=jar -Dfile=/tmp/smack_3_2_1/smack.jar
+ mvn install:install-file -DgroupId=org.igniterealtime.smack -DartifactId=smack -Dversion=3.2.1 -Dpackaging=jar -Dfile=repos/smack.jar
+
+ mvn install:install-file -DgroupId=org.igniterealtime.smack -DartifactId=smackx -Dversion=3.2.1 -Dpackaging=jar -Dfile=repos/smackx.jar

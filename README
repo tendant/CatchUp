@@ -1,14 +1,28 @@
 # CatchUp
 
-CatchUp is a simple news notification tool. It can monitor news from different source. Once it finds a news matching predefined keywords, a gtalk message will be send to you.
-
-## Usage
-
-
+CatchUp is a simple news notification tool. It can monitor news from different sources (only news.ycombinator.com for now). Once it finds a news matching predefined keywords, a gtalk message will be send to subscribed user.
 
 ## Installation
 
-FIXME: write
+1. Install CouchDB
+
+2. Install RabbitMQ
+
+3. Install smack library by running commands in repos/smack.txt file. 
+
+4. Update user information in core.clj (search for CHANGE-ME)
+
+5. Update gtalk user in gtalk.clj (search for CHANGE-ME)
+
+## Usage
+
+lein run
+
+OR
+
+lein uberjar
+
+java -jar CatchUp-1.0.0-SNAPSHOT-standalone.jar
 
 ## License
 
