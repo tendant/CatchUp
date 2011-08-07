@@ -1,0 +1,17 @@
+# CatchUp
+
+CatchUp is a simple news notification tool. It can monitor news from different source. Once it finds a news matching predefined keywords, a gtalk message will be send to you.
+
+## Usage
+
+
+
+## Installation
+
+FIXME: write
+
+## License
+
+Copyright (C) 2010 Lei Wang
+
+Distributed under the Eclipse Public License, the same as Clojure.
